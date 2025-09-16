@@ -64,7 +64,7 @@ export default function Portfolio() {
               transition={{ duration: 1, delay: 0.3 }}
               className="intro h1"
             >
-              Er. Rumana Ansari
+              Er.Rumana Ansari
             </motion.h1>
             <motion.p
               initial={{ x: -50, opacity: 0 }}
