@@ -1,0 +1,262 @@
+/* Background Gradient */
+.portfolio {
+  min-height: 100vh;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);
+  font-family: "Segoe UI", sans-serif;
+  color: #1e293b;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+/* Header */
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+.profile-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid white;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.intro h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin: 0;
+}
+
+.intro p {
+  margin-top: 10px;
+  color: #475569;
+  font-size: 1.1rem;
+}
+
+.buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn {
+  padding: 10px 24px;
+  border-radius: 30px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.btn.primary {
+  background: #0284c7;
+  color: white;
+}
+
+.btn.primary:hover {
+  opacity: 0.9;
+}
+
+.btn.secondary {
+  border: 2px solid #0284c7;
+  color: #0284c7;
+}
+
+.btn.secondary:hover {
+  background: #e0f2fe;
+}
+
+.font-large {
+  font-size: larger;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+/* Cards */
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 30px;
+  margin-bottom: 60px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+}
+
+/* Projects */
+.projects {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.project-card {
+  background: white;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+.project-card h3 {
+  color: #0284c7;
+  margin-bottom: 10px;
+}
+
+.project-card a {
+  color: #0284c7;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Form */
+.form {
+  display: grid;
+  gap: 15px;
+}
+
+.form input,
+.form textarea {
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form input:focus,
+.form textarea:focus {
+  border-color: #0284c7;
+  box-shadow: 0 0 0 2px rgba(2, 132, 199, 0.2);
+}
+
+.form button {
+  padding: 12px;
+  border: none;
+  border-radius: 30px;
+  background: #02c764;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.form button:hover {
+  background: #0369a1;
+}
+
+/* DownloadResume.css */
+.Arrow {
+  position: fixed;
+  top: 20px;
+  right: 20px; /* 👈 right side */
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  background-color: #02c764;
+  color: white;
+  font-weight: 600;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  z-index: 9999; /* hamesha upar rahe */
+}
+
+.Arrow:hover {
+  background-color: #1e40af;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.Arrow svg {
+  width: 20px;
+  height: 20px;
+  stroke: white;
+}
+/*FOOTER SECTION */
+.footer {
+  background-color: #111827; /* dark gray */
+  color: #d1d5db; /* light gray text */
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-size: x-large;
+
+  gap: 15px;
+}
+
+@media (min-width: 768px) {
+  .footer-container {
+    flex-direction: row;
+  }
+}
+
+/* Social Links */
+.footer-socials {
+  display: flex;
+  gap: 20px;
+}
+
+.social-link {
+  font-size: 1.5rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-link:hover {
+  transform: scale(1.2);
+}
+
+/* Specific Hover Colors */
+.social-link.linkedin:hover {
+  color: #61acf8;
+}
+
+.social-link.github:hover {
+  color: #ffffff;
+}
+
+.social-link.twitter:hover {
+  color: #1da1f2;
+}
+
+/* Copyright */
+.footer-copy {
+  font-size: 14px;
+  color: #9ca3af;
+  text-align: center;
+}
