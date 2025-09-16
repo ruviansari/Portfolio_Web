@@ -107,21 +107,28 @@ export default function Portfolio() {
           className="card"
         >
           <h2 className="card h2">About Me</h2>
-          <p className="text-slate-700 leading-relaxed">
-            Hi, I am
-            <span className="font-large">
-              Er' Rumana Ansari passionate Full-Stack developer specializing in
-              the MERN stack. I enjoy building scalable, user-friendly, and
-              responsive web applications.br With internship experience and
-              multiple real-world projects, I am continuously improving my
-              skills to deliver professional solutions."
-            </span>
-            <br />I enjoy working with{" "}
-            <strong>React & Tailwind CSS, BootStrap, html5 ,Css3</strong> for
-            frontend and
-            <strong>Node/Express + MongoDB</strong> for backend. My focus is
-            always on writing scalable and user-friendly applications.
-          </p>
+         <p className="text-slate-700 leading-relaxed">
+  Hi, I’m{" "}
+  <span className="font-semibold text-slate-900">
+    Er. Rumana Ansari
+  </span>
+  , a passionate{" "}
+  <span className="font-medium text-indigo-600">
+    Full-Stack Developer (MERN Stack)
+  </span>
+  with a strong focus on building scalable, responsive, and user-friendly web
+  applications. With hands-on internship experience and multiple real-world
+  projects, I am continuously sharpening my skills to deliver{" "}
+  <span className="italic">professional and impactful solutions</span>.
+  <br />
+  <br />
+  I love working with{" "}
+  <strong>React.js, Tailwind CSS, Bootstrap, HTML5, and CSS3</strong> on the
+  frontend, and <strong>Node.js, Express, and MongoDB</strong> on the backend.
+  My approach always emphasizes{" "}
+  <span className="font-semibold">clean code, performance, and scalability</span>.
+</p>
+
         </motion.section>
         {/* Projects */}
         <motion.section
