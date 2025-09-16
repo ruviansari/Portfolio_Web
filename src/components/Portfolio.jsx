@@ -144,7 +144,7 @@ export default function Portfolio() {
                 <h3 className="project-card h3">{p.title}</h3>
                 <p className="project-card a:hover">{p.desc}</p>
                 <a href={p.link} className="project-card a ">
-                  Live / Repo →
+                  Live Link
                 </a>
               </motion.article>
             ))}
@@ -158,7 +158,7 @@ export default function Portfolio() {
           viewport={{ once: true }}
           className="card"
         >
-          <h2 className="card h2">Hobbies :-</h2>
+          <h2 className="card h2">Hobbies</h2>
 
           <li>
             <ul>
@@ -173,7 +173,7 @@ export default function Portfolio() {
           <li>
             <ul>
               <strong>Reading tech blogs & case studies</strong>
-            </ul>{" "}
+            </ul>
           </li>
 
           <li>
@@ -196,7 +196,7 @@ export default function Portfolio() {
           viewport={{ once: true }}
           className="card"
         >
-          <h2 className="card h2">Strengths :-</h2>
+          <h2 className="card h2">Strengths</h2>
 
           <li>
             <ul>
@@ -234,7 +234,7 @@ export default function Portfolio() {
           viewport={{ once: true }}
           className="card"
         >
-          <h2 className="card h2">Work_Experience </h2>
+          <h2 className="card h2">Work Experience </h2>
 
           <li>
             <ul>
