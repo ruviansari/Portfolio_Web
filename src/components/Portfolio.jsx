@@ -4,15 +4,21 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    title: "Movie App",
+    title: "Change Background color",
     desc: "MERN stack project with Rest API, ",
-    link: "https://github.com/",
+    link: "https://bg-changer-three-gamma.vercel.app/",
+  },
+
+   {
+    title: "E-commerce Website",
+    desc: "Product listing, cart and checkout UI (frontend).",
+    link: "https://vite-project2-theta.vercel.app/",
   },
 
   {
-    title: "World Map",
+    title: "ChatRoom App",
     desc: "MERN stack project By Using Api And  Select Country and Show Flags",
-    link: "https://github.com/",
+    link: "https://chat-application-nu-blush.vercel.app/",
   },
 
   {
@@ -23,13 +29,9 @@ const projects = [
   {
     title: "Notes App",
     desc: "Rich-text notes, tags, search and export to PDF.",
-    link: "https://github.com/",
+    link: "http://localhost:5174/",
   },
-  {
-    title: "E-commerce Website",
-    desc: "Product listing, cart and checkout UI (frontend).",
-    link: "https://vite-project2-theta.vercel.app/",
-  },
+ 
   {
     title: "Property Management ",
     desc: "Product listing, cart and Pricing Rooms Image upload role based access (frontend).",
