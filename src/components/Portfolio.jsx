@@ -29,7 +29,7 @@ const projects = [
   {
     title: "Notes App",
     desc: "Rich-text notes, tags, search and export to PDF.",
-    link: "http://localhost:5174/",
+    link: "https://github.com/",
   },
  
   {
